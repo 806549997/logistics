@@ -1,0 +1,182 @@
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #D2D2D2;
+    text-align: center;
+   /* padding-left: 1rem;*/
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #D2D2D2; text-align: center;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:   #D2D2D2; text-align: center;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #D2D2D2; text-align: center;
+}
+.mineContent{
+    background-image: url("../images/mobileLoginBack.jpg");
+    position: absolute;
+    bottom: 3rem;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    -webkit-filter: blur(100px);
+    -moz-filter: blur(100px);
+    -o-filter: blur(100px);
+    -ms-filter: blur(100px);
+    filter: blur(100px);
+    background-size: cover;
+    animation:animateMine 3s;
+    -moz-animation:animateMine 3s; /* Firefox */
+    -webkit-animation:animateMine 3s; /* Safari and Chrome */
+    -o-animation:animateMine 3s; /* Opera */
+}
+.welcome.ng-scope {
+    position: absolute;
+    padding: 6rem 2rem 2rem 2rem;
+    left: 0px;
+    right: 0px;
+    bottom: 3rem;
+    top: 0px;
+    color: white;
+}
+div#welcome {
+    height: 3rem;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: cursive;
+}
+.Weltip {
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: inherit;
+}
+form.loginForm>input {
+    height: 2rem;
+    width: 16rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #D2D2D2;
+    font-family: inherit;
+    border: 0px solid #fff;
+    padding-left: 0.5rem;
+}
+img#Icon {
+    width: 2.5rem;
+    margin: 1rem;
+    z-index: 3;
+    position: absolute;
+}
+.register {
+    text-decoration: none;
+    height: 2rem;
+    width: 16rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #D2D2D2;
+    font-family: inherit;
+    text-align: center;
+    line-height: 2rem;
+    box-shadow: 0.1rem 0.1rem 1rem #ccc;
+}
+form>a {
+    text-decoration: none;
+}
+input[type="submit"] {
+    background-color: rgb(89, 173, 237)!important;
+    color: white!important;
+    width: 12rem;
+    border: 0px solid #fff;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border-radius: 1rem;
+    /* padding-right: 4rem; */
+    position: absolute;
+    bottom: 9rem;
+    right: 4rem;
+}
+#dl{
+    right: 2rem!important;
+}
+.myTips>span {
+    position: absolute;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+.myTip>span {
+    font-size: 0.9rem;
+}
+@keyframes animateMine
+{
+    from {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+        filter: blur(0px);
+    }
+    to {
+        -webkit-filter: blur(100px);
+        -moz-filter: blur(100px);
+        -o-filter: blur(100px);
+        -ms-filter: blur(100px);
+        filter: blur(100px);
+    }
+}
+@-moz-keyframes animateMine /* Firefox */
+{
+    from {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+        filter: blur(0px);
+    }
+    to {
+        -webkit-filter: blur(100px);
+        -moz-filter: blur(100px);
+        -o-filter: blur(100px);
+        -ms-filter: blur(100px);
+        filter: blur(100px);
+    }
+}
+@-webkit-keyframes animateMine /* Safari and Chrome */
+{
+    from {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+        filter: blur(0px);
+    }
+    to {
+        -webkit-filter: blur(100px);
+        -moz-filter: blur(100px);
+        -o-filter: blur(100px);
+        -ms-filter: blur(100px);
+        filter: blur(100px);
+    }
+}
+
+@-o-keyframes animateMine /* Opera */
+{
+    from {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+        filter: blur(0px);
+    }
+    to {
+        -webkit-filter: blur(100px);
+        -moz-filter: blur(100px);
+        -o-filter: blur(100px);
+        -ms-filter: blur(100px);
+        filter: blur(100px);
+    }
+}

@@ -1,0 +1,102 @@
+.ownerRegister,.shipperRegister {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 3rem;
+    background-color: #5ea9ec;
+}
+.ownerRegister>a>img,.shipperRegister>a>img {
+    width: 2rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.ownerContent,.shipperContent {
+    position: absolute;
+    top: 3rem;
+    bottom: 3rem;
+    left: 0px;
+    right: 0px;
+    background-image: url("../images/reBack.jpg");
+    background-size: cover;
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+    filter: blur(30px);
+}
+.oContent{
+    position: absolute;
+    top: 3rem;
+    bottom: 3rem;
+    left: 0px;
+    right: 0px;
+    background-size: cover;
+}
+.ownerTitle,.shipperTitle {
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+}
+/*表单*/
+.oContent>form {
+    margin: 2rem 2rem 0rem 2rem;
+    height: 16rem;
+}
+.ORegister>input[type='text'], .ORegister>input[type='password'] {
+    width: 16rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 2.1rem;
+    background-color: rgba(255, 255, 255, 0.38);
+    font-size: 1rem;
+    padding-left: 0.8rem;
+    border:0px solid #fff;
+}
+.rad {
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1rem 0rem 0rem 3.5rem;
+}
+.ORegister {
+    color: rgb(148, 148, 148);
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgb(123, 123, 123);
+    text-align: center;
+    /* padding-left: 1rem;*/
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgb(123, 123, 123);text-align: center;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgb(123, 123, 123); text-align: center;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: rgb(123, 123, 123); text-align: center;
+}
+.submitO {
+    text-align: center;
+    color: white;
+    border: 0.05rem solid;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.09);
+}
+span.help-block {
+    font-size: 0.8rem;
+}
+input#women {
+    margin-top: 1rem;
+}
+.sss {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}

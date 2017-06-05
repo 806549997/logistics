@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="luckApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title></title>
+
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/basicInfo.css">
+
+</head>
+<script>
+    (function(){
+        var colCount = 20;
+        //  设置列宽
+        var colWidth =  document.documentElement.clientWidth / colCount;
+        //  确定基本的font-size
+        document.querySelector('html').style.fontSize = colWidth + 'px';
+    })();
+</script>
+<body ng-controller="luckController">
+    <div ng-view>
+    </div>
+
+<!--导航-->
+    <nav>
+        <div class="nav"><i class="icon iconfont"></i><a href="#/">首页</a></div>
+        <div class="nav"><i class="icon iconfont">󰄴</i><a href="#/carInfo">车源</a></div>
+        <div class="nav"><i class="icon iconfont"></i><a href="#/goodsInfo"></a></div>
+        <div class="nav"><i class="icon iconfont"></i><a href="#/goodsInfo">货源</a></div>
+        <!--<div class="nav">新闻</div>-->
+        <div class="nav"><i class="icon iconfont"></i><a href="#/mine">我的</a></div>
+    </nav>
+
+<script src="js/jquery.js"></script>
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-route.min.js"></script>
+<script src="js/mobileHome.js"></script>
+<script src="js/register.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="css/soRegister.css">
+<div>
+    <div class="ownerRegister">
+        <a href="#/register"><img src="images/returnBack.png"></a>
+        <div class="ownerTitle">车主注册</div>
+    </div>
+    <div class="ownerContent"></div>
+    <div class="oContent">
+        <form method="post" action="register.do" novalidate name="registerForm"  ng-controller="registerController">
+            <div class="ORegister">
+                <input type="hidden" name="identity" value="1">
+                <input type="text" id="userName" name="user" placeholder="请输入注册用户名" ng-model="user" required ng-pattern="/^[a-zA-Z][a-zA-z0-9]{3,}$/"/>
+                <span ng-show="registerForm.user.$dirty && registerForm.user.$invalid">
+				  		<span ng-show="registerForm.user.$error.required" class="help-block">用户名不能为空！</span>
+				        <span ng-show="registerForm.user.$error.pattern" class="help-block">用户名字母数字组合，长度不能少于4位，必须以字母打头</span>
+ 				</span>
+
+                <input type="password" id="password" name="password" placeholder="请输入密码" ng-model="password" required ng-minlength="6" ng-maxlength="12"/>
+                <span ng-show="registerForm.password.$dirty && registerForm.password.$invalid">
+                     <span ng-show="registerForm.password.$error.required">密码不能为空！</span>
+                   	 <span ng-show="registerForm.password.$error.minlength" class="help-block">密码太短</span>
+           			 <span ng-show="registerForm.password.$error.maxlength" class="help-block">密码太长</span>
+                   </span>
+
+                <input type="password" class="form-control" ng-model="passwordagain" name="passwordagain" id="passwordagain" placeholder="请再输一遍密码..." required>
+                    <span ng-show="registerForm.password.$valid">
+                        <span ng-show="passwordagain!=password" class="help-block">*两次密码输入不一致</span>
+                    </span>
+
+                <input type="text" id="tel"  ng-model="telephone" name="telephone" id="telephone" placeholder="请输入手机号" ng-pattern="/^1[34578]\d{9}$/"/>
+                <span ng-show="registerForm.telephone.$dirty && registerForm.telephone.$invalid">
+				        <span ng-show="registerForm.telephone.$error.pattern" class="help-block">手机格式不正确</span>
+ 				</span>
+
+                <div class="sss">
+                    <input type="radio" name="sex" id="women">
+                        <label for="women" class="col-sm-4 control-label" value="女">女</label>
+                    <input type="radio" name="sex" id="men">
+                        <label for="men" class="col-sm-4 control-label" value="男"> 男</label>
+                    <input type="submit" id="Osubmit" >
+                </div>
+            </div>
+        </form>
+  </div>
+</div>

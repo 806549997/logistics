@@ -1,0 +1,60 @@
+.registerTitle {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 3rem;
+    line-height: 3rem;
+    border: 1px solid #ccc;
+    color: white;
+    background-color: rgb(94, 169, 236);
+    text-align: center;
+}
+.registerTitle>img {
+    position: absolute;
+    width: 2rem;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.choosePeople>img {
+    width: 100%;
+}
+.choosePeople>div {
+    width: 8rem;
+    height: 8rem;
+    line-height: 8rem;
+    margin-left: 1rem;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.51);
+    border-radius: 21%;
+    color: #505050;
+    box-shadow: 1rem 1rem 1rem rgba(103, 69, 53, 0.26);
+}
+.choosePeople>div>a {
+    text-decoration: none;
+}
+.registerContent.ng-scope {
+    background-color: #FCEECF;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 3rem;
+}
+.choosePeople {
+    position: absolute;
+    top: 3rem;
+    left: 0px;
+    right: 0px;
+    bottom: 3rem;
+}
+.registerContent.ng-scope {
+    background-color: #FCEECF;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 3rem;
+    top: 0px;
+}

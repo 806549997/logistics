@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .welcomeContent {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            text-align: center;
+            padding-top: 30rem;
+        }
+        img:nth-child(3) {
+            position: absolute;
+            bottom: 5rem;
+            width: 35rem;
+            left: 15rem;
+        }
+    </style>
+</head>
+<body>
+<div class="welcomeContent">
+    <img src="images/haoyunduo.png">
+    <img src="images/welcome.png">
+    <img src="images/logo.png">
+</div>
+
+<script>
+    var load_time = null;
+    window.onload=function(){
+        console.log("加载执行");
+        flag = false;
+        //打开页面1秒不操作就跳转
+        load_time = setTimeout(function(){
+            window.location.href="http://localhost:8095/mobileSite/index.html";
+        },2000);
+
+    }
+</script>
+</body>
+</html>

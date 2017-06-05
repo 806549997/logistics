@@ -1,0 +1,112 @@
+html{
+    font-family: "arial", "微软雅黑";
+}
+.mineTitle>div {
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+}
+.mineTitle>a>img {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 1.8rem;
+}
+.mineTitle {
+    background-color: #5ea9ec;
+    height: 3rem;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.mineContent {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: #ececec;
+}
+#headPic {
+    height: 9rem;
+}
+.mine {
+    height: 9rem;
+    line-height: 13rem;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.mainback {
+    position: absolute;
+    height: 9rem;
+    background-size: cover;
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+    filter: blur(30px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: url("../images/headpic.jpg");
+}
+
+div#headPic>img {
+    border-radius: 50%;
+    width: 6rem;
+
+}
+#mineName {
+    z-index: 6;
+    font-size: 0.9rem;
+    color: #666;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.mineInfo>a>div>img {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.3rem;
+    vertical-align: middle;
+    background-color: #EA8A5A;
+    margin: 0.1rem;
+    margin-right: 1rem;
+}
+.mineInfo>a{
+    text-decoration: none;
+}
+.mineInfo>a>div {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    box-sizing: border-box;
+    position: relative;
+    font-size: 0.9rem;
+    color: #333;
+    background-color: white;
+}
+.mineInfo>a>div>span {
+    /* margin-left: 6rem; */
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+    font-size: 1rem;
+    color: #999;
+}
+.about>span,.contact>span {
+    position: absolute;
+    top: 0!important;
+}
+.about,.contact {
+    height: 2rem;
+    line-height: 2rem;
+}
+.about,.mineInfo {
+    margin-top: 0.8rem;
+}

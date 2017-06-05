@@ -1,0 +1,37 @@
+/*栅栏*/
+.col-01{
+    width:1rem;
+}
+.col-02{
+    width:2rem;
+}
+.col-03{
+    width:3rem;
+}
+.col-04{
+    width:4rem;
+}
+.col-05{
+    width:5rem;
+}
+.col-06{
+    width:6rem;
+}
+.col-07{
+    width:7rem;
+}
+.col-08{
+    width:8rem;
+}
+.col-09{
+    width:9rem;
+}
+.col-10{
+    width:10rem;
+}
+.col-11{
+    width:11rem;
+}
+html{
+    font-family: '微软雅黑';
+}

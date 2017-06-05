@@ -1,0 +1,47 @@
+.releaseContent {
+    position: absolute;
+    top: 0;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+    overflow: auto;    background-color: #E8E8E8;
+}
+.releaseTitle {
+    background-color: #5ea9ec;
+    height: 3rem;
+    line-height: 3rem;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+}
+.releaseTitle>a>img {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.cityTitle {
+    height: 3rem;
+    line-height: 3rem;
+    color: #5986CE;
+    padding-left: 0.5rem;
+}
+.City>div:nth-child(2), .City>div:nth-child(3), .City>div:nth-child(4), .City>div:nth-child(5), .City>div:nth-child(6), .City>div:nth-child(7) {
+    background-color: white!important;
+    border-bottom: 0.1rem solid #E8E8E8;
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 2rem;
+    font-size: 0.9rem;
+    position: relative;
+}
+.City>div>span {
+    position: absolute;
+    left: 12rem;
+}
+#refb {
+     top: 0.25rem;
+     background-color: white!important;
+     color: rgb(89, 173, 237)!important;
+     width: 5rem;
+     right: 1rem;
+ }

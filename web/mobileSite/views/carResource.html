@@ -1,0 +1,32 @@
+<div class="carsAndGoods">
+    <header>
+        <div class="title">
+            <a href="#/"><img src="images/home.png" id="HomeIcon"></a>
+            <div class="findCarShop">
+                <div class="find findNotCheck">找车</div><div class="find findCheck" >找货</div>
+            </div>
+        </div>
+        <div class="city">
+            <div id="startCity">开始地</div>
+            <div id="to">--></div>
+            <div id="toCity" class="findCheck">目的地</div>
+        </div>
+    </header>
+    <!--车源信息-->
+    <section class="currentCarInfo">
+        <div class="Infos" ng-repeat="item in carInfo">
+            <div class="carInfos">
+                <div class="startToCitys">
+                    <span class="sCity">{{item.startCity}}</span>
+                    <span class="tCity">{{item.toCity}}</span>
+                </div>
+                <div id="carInfo">{{item.carLong}} {{item.carType}} {{item.coachType}}</div>
+                <div class="people">联系人：{{item.owner}}</div>
+            </div>
+            <div class="telephone">
+                <div class="auth">已认证</div>
+                <img src="images/tele.png" />
+            </div>
+        </div>
+    </section>
+</div>

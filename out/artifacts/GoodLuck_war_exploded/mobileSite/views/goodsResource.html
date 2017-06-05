@@ -1,0 +1,36 @@
+<!--车源和货源-->
+<div class="carsAndGoods">
+    <header>
+        <div class="title">
+            <a href="#/"><img src="images/home.png" id="HomeIcon"></a>
+            <div class="findCarShop">
+                <div class="find findNotCheck">找车</div><div class="find findCheck" >找货</div>
+            </div>
+        </div>
+        <div class="city">
+            <div id="startCity">开始地</div>
+            <div id="to">--></div>
+            <div id="toCity" class="findCheck">目的地</div>
+        </div>
+    </header>
+
+    <section>
+        <!--货源信息-->
+        <div class="Infos" ng-repeat="goods in goodsInfo">
+            <div class="goodsInfos">
+                <div class="startToCitys">
+                    <span class="sCity">{{goods.startCity}}</span>
+                    <span class="tCity">{{goods.toCity}}</span>
+                </div>
+                <div id="goodsInfo">{{goods.name}}  {{goods.weight}}</div>
+                <div class="time">发货时间：{{goods.shipmentTime}}</div>
+                <div class="people">联系人：{{goods.shipper}}</div>
+            </div>
+            <div class="telephone">
+                <div class="goodsAuth">已认证</div>
+                <img src="images/tele.png" />
+            </div>
+        </div>
+
+    </section>
+</div>
